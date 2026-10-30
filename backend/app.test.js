@@ -20,7 +20,7 @@ test("GET /api/results/101 should return student result", async () => {
 
   assert.equal(response.status, 200);
   assert.equal(response.body.rollNumber, "101");
-  assert.equal(response.body.name, "Aarav Sharma");
+  assert.equal(response.body.name, "Wrong Name");
   assert.equal(response.body.result, "PASS");
   assert.equal(response.body.totalMarks, 417);
   assert.equal(response.body.maximumMarks, 500);
