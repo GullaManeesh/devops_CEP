@@ -1,0 +1,22 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    image: result-checker-backend:1.0
+    container_name: result-backend
+    restart: unless-stopped
+    expose:
+      - "5000"
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: /api
+    image: result-checker-frontend:1.0
+    container_name: result-frontend
+    restart: unless-stopped
+    ports:
+      - "8081:80"
+    depends_on:
+      - backend

@@ -1,0 +1,42 @@
+
+[
+  {
+    "rollNumber": "101",
+    "name": "Aarav Sharma",
+    "department": "Information Technology",
+    "semester": 5,
+    "subjects": [
+      { "name": "Data Structures", "marks": 85, "maxMarks": 100 },
+      { "name": "Database Management", "marks": 78, "maxMarks": 100 },
+      { "name": "Operating Systems", "marks": 92, "maxMarks": 100 },
+      { "name": "Computer Networks", "marks": 74, "maxMarks": 100 },
+      { "name": "Software Engineering", "marks": 88, "maxMarks": 100 }
+    ]
+  },
+  {
+    "rollNumber": "102",
+    "name": "Priya Reddy",
+    "department": "Information Technology",
+    "semester": 5,
+    "subjects": [
+      { "name": "Data Structures", "marks": 91, "maxMarks": 100 },
+      { "name": "Database Management", "marks": 87, "maxMarks": 100 },
+      { "name": "Operating Systems", "marks": 84, "maxMarks": 100 },
+      { "name": "Computer Networks", "marks": 89, "maxMarks": 100 },
+      { "name": "Software Engineering", "marks": 95, "maxMarks": 100 }
+    ]
+  },
+  {
+    "rollNumber": "103",
+    "name": "Rahul Kumar",
+    "department": "Information Technology",
+    "semester": 5,
+    "subjects": [
+      { "name": "Data Structures", "marks": 28, "maxMarks": 100 },
+      { "name": "Database Management", "marks": 55, "maxMarks": 100 },
+      { "name": "Operating Systems", "marks": 62, "maxMarks": 100 },
+      { "name": "Computer Networks", "marks": 48, "maxMarks": 100 },
+      { "name": "Software Engineering", "marks": 71, "maxMarks": 100 }
+    ]
+  }
+]
